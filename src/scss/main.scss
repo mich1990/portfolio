@@ -1,5 +1,6 @@
 @import "~normalize.css";
 @import "modules/hero.scss";
+@import "modules/skills.scss";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono&display=swap');
 
 @import "_variables";
@@ -26,10 +27,6 @@ body {
 
 .recentProjects {
   background-color: #ffffff;
-  height: 100px;
-}
-.skills{
-  background-color: #1070ca;
   height: 100px;
 }
 
