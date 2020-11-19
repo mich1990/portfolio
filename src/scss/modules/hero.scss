@@ -1,0 +1,65 @@
+@import "_variables";
+
+.hero {
+  background-color: #ffffff;
+  padding: 74px 16px 88px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  &__avatar {
+    box-sizing: content-box;
+    border-radius: 50%;
+    border: 24px solid #f6f9fd;
+    width: 96px;
+    height: 96px;
+  }
+  &__email {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: $lightBlue;
+    border-radius: 64px;
+    text-decoration: none;
+    color: white;
+    padding: 4px 24px;
+    display: inline-block;
+
+  }
+  &__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__header {
+    font-weight: 700;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 32px;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  &__hello {
+    background-color: blue;
+    border-radius: 16px;
+    width: 225px;
+    height: 95px;
+    display: none;
+  }
+  &__page-links {
+    text-decoration-line: underline;
+    color: $lightBlue;
+    font-weight: 700;
+    size: 20px;
+  }
+  &__paragraph {
+    color: $text;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+  &__special {
+    color: $specialBlue;
+  }
+}

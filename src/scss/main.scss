@@ -1,13 +1,35 @@
 @import "~normalize.css";
+@import "modules/hero.scss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono&display=swap');
 
 @import "_variables";
-@import "modules/hello.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
 
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  font-family: "Nunito";
+  color: $textDark;
 }
+
+.contact{
+  background-color: #dbeaf7;
+  height: 100px;
+}
+
+.recentProjects {
+  background-color: #ffffff;
+  height: 100px;
+}
+.skills{
+  background-color: #1070ca;
+  height: 100px;
+}
+
