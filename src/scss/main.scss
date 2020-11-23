@@ -2,6 +2,7 @@
 @import "modules/hero.scss";
 @import "modules/skills.scss";
 @import "modules/projects.scss";
+@import "modules/contact.scss";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono&display=swap');
 
 @import "_variables";
@@ -19,10 +20,5 @@ html {
 body {
   font-family: "Nunito";
   color: $textDark;
-}
-
-.contact{
-  background-color: #dbeaf7;
-  height: 100px;
 }
 
