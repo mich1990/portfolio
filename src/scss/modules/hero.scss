@@ -6,6 +6,10 @@
     max-width: 768px;
     margin: 0 auto;
   }
+  @media (min-width: $desktop) {
+    max-width: 100%;
+  }
+
   background-color: #ffffff;
   max-width: 800px;
   margin: auto;
@@ -26,6 +30,30 @@
     position: absolute;
     left: calc(50% + 90px);
     top: -26px;
+  }
+  &__description{
+    text-align: center;
+    @media (min-width: $desktop) {
+      max-width: 786px;
+      margin: 0 auto;
+      position: relative;
+      &::before, &::after{
+        width: 83px;
+        height: 255px;
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+      }
+      &::before{
+        background: url('../assets/img/{.svg');
+        right: 100%;
+      }
+      &::after{
+        background: url('../assets/img/}.svg');
+        left: 100%;
+    }
+  }
   }
   &__email {
     font-weight: bold;
@@ -100,5 +128,6 @@
   }
   &__special {
     color: $specialBlue;
+    white-space: nowrap;
   }
 }
