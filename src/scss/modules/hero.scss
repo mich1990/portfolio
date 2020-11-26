@@ -1,13 +1,16 @@
 @import "_variables";
 
 .hero {
-  padding: 74px 16px 88px;
+  padding: 64px 16px 88px;
   @media (min-width: $tablet) {
     max-width: 768px;
     margin: 0 auto;
   }
   @media (min-width: $desktop) {
-    max-width: 100%;
+    max-width: 982px;
+    padding: 0;
+    margin: 80px auto 176px;
+
   }
 
   background-color: #ffffff;
@@ -58,7 +61,7 @@
   &__email {
     font-weight: bold;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 40px;
     background-color: $lightBlue;
     border-radius: 64px;
     text-decoration: none;
@@ -71,6 +74,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-bottom: 72px;
   }
   &__header {
     font-weight: 700;
@@ -80,7 +84,7 @@
     padding-bottom: 24px;
     text-align: center;
     @media (min-width: $desktop) {
-      font-size: 32px;
+      font-size: 30px;
       line-height: 40px;
     }
   }
@@ -124,6 +128,7 @@
     @media (min-width: $desktop) {
       font-size: 20px;
       line-height: 40px;
+      margin-bottom: 68px;
     }
   }
   &__special {
