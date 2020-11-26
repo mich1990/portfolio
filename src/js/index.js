@@ -1,6 +1,6 @@
 import "../scss/main.scss";
 
-console.log("HELLO 🚀");
+console.log("HELLO thanks for looking at my website 🚀");
 
 fetch("https://api.github.com/users/mich1990/repos?sort=created&direction=asc")
   .then((res) => res.json())
