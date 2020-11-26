@@ -2,7 +2,9 @@
   background-color: #dbeaf7;
   padding: 64px 16px 88px;
   text-align: center;
-
+  @media(min-width: $desktop) {
+    padding: 80px 16px 176px;
+  }
   &__email {
     font-weight: bold;
     font-size: 20px;
@@ -23,6 +25,7 @@
     @media(min-width: $desktop){
       font-size: 48px;
       line-height: 56px;
+      margin-top: 0;
     }
   }
   &__links{
