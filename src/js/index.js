@@ -1,6 +1,6 @@
 import "../scss/main.scss";
 
-console.log("HELLO 🚀");
+console.log("HELLO thanks for looking at my website 🚀");
 
 fetch("https://api.github.com/users/mich1990/repos?sort=created&direction=asc")
   .then((res) => res.json())
@@ -27,7 +27,7 @@ fetch("https://api.github.com/users/mich1990/repos?sort=created&direction=asc")
               <p class="project__grid">
                 <span class="project__label">demo:</span>
                 <span>
-                  &lt;<a class="project__link" href="${homepage}" title="${description}"
+                  &lt;<a rel="noopener noreferrer" target="_blank" class="project__link" href="${homepage}" title="${description}"
                     >see_here</a
                   >&gt;
                 </span>
@@ -35,7 +35,7 @@ fetch("https://api.github.com/users/mich1990/repos?sort=created&direction=asc")
               <p class="project__grid project__grid--description">
                 <span class="project__label">github:</span>
                 <span>
-                  &lt;<a class="project__link" href="${html_url}" title="${description}"
+                  &lt;<a rel="noopener noreferrer" target="_blank" class="project__link" href="${html_url}" title="${description}"
                     >source_code</a
                   >&gt;
                 </span>
